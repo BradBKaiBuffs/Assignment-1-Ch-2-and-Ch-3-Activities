@@ -6,7 +6,9 @@ What I did for activity 2.01:
 After creating code ran in PyCharm the following line by line:
 
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py shell
 
 In Python shell ran the following line by line:
