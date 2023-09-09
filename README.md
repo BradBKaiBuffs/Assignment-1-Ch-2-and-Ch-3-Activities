@@ -26,6 +26,6 @@ Task.objects.create(task_name='create Tasks',description='Creating tasks assocai
 
 Task.objects.create(task_name='create query list of tasks',description='query tasks and obtain status',project_name=project_name,time_for_completion='10 minutes',completion_status='Pending') 
 
-# Results listing all the tasks in the project:
+# Results of listing all the tasks in the project:
 >>> project_name.task_set.all()                        
 <QuerySet [<Task: create Juggler project>, <Task: create projectp myapp>, <Task: create Classes>, <Task: create Tasks>, <Task: Query list of tasks>]>
